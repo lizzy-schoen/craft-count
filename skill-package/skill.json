@@ -11,13 +11,13 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "name": "Knit Buddy",
-          "summary": "A hands-free knitting row counter with project management and smart reminders.",
-          "description": "Knit Buddy helps you track your knitting rows without putting down your needles. Say 'next row' to increment your counter, manage multiple projects by name, and set reminders for specific rows like decreases or color changes. Knit Buddy gives you a heads-up the row before so you're always prepared.",
+          "name": "Craft Count",
+          "summary": "A hands-free row counter with project management and smart reminders for knitting and crochet.",
+          "description": "Craft Count helps you track your rows without putting down your needles. Say 'next row' to increment your counter, manage multiple projects by name, and set reminders for specific rows like decreases or color changes. Craft Count gives you a heads-up the row before so you're always prepared.",
           "examplePhrases": [
-            "Alexa, open knit buddy",
-            "Alexa, tell knit buddy next row",
-            "Alexa, ask knit buddy what row am I on"
+            "Alexa, open craft count",
+            "Alexa, tell craft count next row",
+            "Alexa, ask craft count what row am I on"
           ],
           "keywords": [
             "knitting",
@@ -26,7 +26,7 @@
             "stitch counter",
             "crafts",
             "fiber arts",
-            "knit buddy"
+            "craft count"
           ]
         }
       },

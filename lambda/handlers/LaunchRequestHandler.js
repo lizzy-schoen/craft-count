@@ -14,7 +14,7 @@ const LaunchRequestHandler = {
     } else if (Object.keys(attrs.projects || {}).length > 0) {
       speech = `Welcome back. Say switch to, followed by a project name, or create a new project.`;
     } else {
-      speech = `Welcome to Knit Buddy! Say create a project, followed by a name, to get started.`;
+      speech = `Welcome to Craft Count! Say create a project, followed by a name, to get started.`;
     }
 
     return handlerInput.responseBuilder
