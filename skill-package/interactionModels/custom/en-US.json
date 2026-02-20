@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "stitch counter",
+      "invocationName": "knit buddy",
       "intents": [
         {
           "name": "NextRowIntent",

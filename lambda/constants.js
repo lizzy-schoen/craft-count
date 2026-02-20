@@ -1,4 +1,4 @@
 module.exports = {
   TABLE_NAME: 'KnitCounterTable',
-  SKILL_NAME: 'Stitch Counter',
+  SKILL_NAME: 'Knit Buddy',
 };
