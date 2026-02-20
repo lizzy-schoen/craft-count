@@ -18,7 +18,8 @@ const ListProjectsIntentHandler = {
     }
 
     const list = names.map((name) => {
-      const row = attrs.projects[name].currentRow;
+      const project = attrs.projects[name];
+      const row = project ? project.currentRow : 0;
       const active = name === attrs.activeProjectName ? ' (active)' : '';
       return `${name} on row ${row}${active}`;
     });

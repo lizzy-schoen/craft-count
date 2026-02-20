@@ -13,7 +13,7 @@ const CreateProjectIntentHandler = {
 
     const rawName = slots.ProjectName && slots.ProjectName.value;
 
-    if (!rawName) {
+    if (!rawName || !rawName.trim()) {
       return handlerInput.responseBuilder
         .speak("I didn't catch the project name. Try saying, create a project called, then the name.")
         .withShouldEndSession(true)

@@ -35,11 +35,11 @@ const SwitchProjectIntentHandler = {
     handlerInput.attributesManager.setPersistentAttributes(attrs);
 
     const project = attrs.projects[match];
+    const row = project ? project.currentRow : 0;
 
     return handlerInput.responseBuilder
-      .speak(`${match}. Row ${project.currentRow}.`)
-      .reprompt('Say next row, or ask me anything.')
-      .withShouldEndSession(false)
+      .speak(`${match}. Row ${row}.`)
+      .withShouldEndSession(true)
       .getResponse();
   },
 };
